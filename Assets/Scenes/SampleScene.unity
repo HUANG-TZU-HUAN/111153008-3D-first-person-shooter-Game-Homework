@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 382276934}
   - component: {fileID: 382276933}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Cross Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -719,7 +719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570118264}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07, y: 0.98, z: 1.36}
+  m_LocalPosition: {x: 0.18, y: 0.98, z: 0.47}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -802,6 +802,7 @@ GameObject:
   - component: {fileID: 1722777590}
   - component: {fileID: 1722777589}
   - component: {fileID: 1722777591}
+  - component: {fileID: 1722777592}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -872,6 +873,22 @@ MonoBehaviour:
   jumpForce: 0
   jumpKey: 32
   PlayerCamera: {fileID: 963194228}
+--- !u!114 &1722777592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722777587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e811e59a1f649d3ba6ca17880cdd4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerCamera: {fileID: 963194227}
+  attackPoint: {fileID: 1988833846}
+  pushForce: 50
+  bullet: {fileID: 8831397397360903084, guid: 38d2f4068fb2d4e559ebbf86d7b9ae36, type: 3}
 --- !u!1 &1809541549
 GameObject:
   m_ObjectHideFlags: 0
